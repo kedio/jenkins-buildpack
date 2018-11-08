@@ -1,0 +1,6 @@
+---
+applications:
+- name: acm.jenkins
+  path: jenkins.war
+  memory: 1G
+  buildpack: https://github.com/kedio/jenkins-buildpack
